@@ -12,6 +12,6 @@ position:=pos(Nikolay,text);
 delete(text,position,length(Nikolay));
 insert(Oleg,text,position);
 end;
-writeln('Текст (имя Nikolay заменено на Oleg):');
+writeln('Изменённый текст (имя Nikolay заменено на Oleg):');
 writeln(text);
 end.
