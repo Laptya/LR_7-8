@@ -5,7 +5,13 @@ begin
 writeln('Введите текст');
 readln(text);
 if length(text) >=6 then
-writeln(text[1..3],' ',text[length(text)-2..length(text)])
+begin
+for i:=1 to 3 do
+write(text[i]);
+write(' ');
+for i:=length(text)-2 to length(text) do
+write(text[i]);
+end
 else
 for i:=1 to length(text) do
 write(text[1]);
