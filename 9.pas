@@ -6,6 +6,7 @@ writeln('Введите первую строчку');
 readln(text1);
 writeln('Введите вторую строчку');
 readln(text2);
+writeln;
 if length(text1) > length(text2) then
 for i:=1 to length(text1)-length(text2) do
 writeln(text1)
